@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    gap: 50px;
+}
+.image{
+    height: 700px;
+}
+.registration{
+    padding-top: 50px;
+    font-size: smaller;
+}
+.registration__buttons{
+    gap: 10px;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.registration__OR{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    font-size: 12px;
+    color: #7b8a92;
+    justify-content: center;
+    align-items: center;
+}
+.registration__OR::after{
+    width: 100px;
+    height: 1px;
+    background-color: #7b8a92;
+    content: " ";
+    margin-left: 5px;
+}
+.registration__OR::before{
+    width: 100px;
+    height: 1px;
+    background-color: #7b8a92;
+    content: " ";
+    margin-right: 5px;
+}
+.registration__buttons--Facebook{
+    display: flex;
+    height: 35px;
+    width: 215px;
+    background-color: #255a9b;
+    color: #eff6ff;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+}
+.registration__buttons--Facebook-image{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-size: cover;
+    margin-right: 35px;
+    margin-top: 3px;
+}
+.registration__buttons--Linkedin{
+    display: flex;
+    height: 35px;
+    width: 215px;
+    background-color: #0076b6;
+    color: #eff6ff;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+}
+.input{
+    width: 200px;
+    height: 35px;
+    display: inline-block;
+    border-width: 1px;
+    border-style: outset;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(97, 97, 97);
+    font-size: 60 px;
+    border-left-color: #0076b6;
+    border-left-width: 6px;
+}
+.registration__buttons--CreateAccount{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3698fb;
+    display: flex;
+    height: 35px;
+    width: 215px;
+    color: #eff6ff;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 7px;
+}
